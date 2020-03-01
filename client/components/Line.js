@@ -96,7 +96,11 @@ export class LineChart extends React.Component {
     const company = this.props.history.location.pathname.slice(1);
     console.log('data incoming here->', this.state)
     return (
-      <div style={{ marginTop: '100px' }}>
+      <div style={{
+        marginTop: '100px',
+        width: '60%',
+
+      }}>
         <h2>{companies[company]}</h2>
         <div style={{
           display: 'flex',

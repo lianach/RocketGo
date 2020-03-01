@@ -307,7 +307,8 @@ function (_React$Component) {
       console.log('data incoming here->', this.state);
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
-          marginTop: '100px'
+          marginTop: '100px',
+          width: '60%'
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, companies[company]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
