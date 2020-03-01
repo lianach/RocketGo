@@ -6,25 +6,26 @@ import { logout } from '../store'
 
 const Navbar = ({ handleClick, isLoggedIn }) => (
   <div>
-    <h1>RocketGo</h1>
-    <nav>
+
+    <nav >
+      <h1 style={{ fontFamily: 'Quicksand' }}>RocketGo</h1>
       {isLoggedIn ? (
-        <div>
+        <div className='items'>
           {/* The navbar will show these links after you log in */}
           <Link to="/home">Home</Link>
-          <a href="#" onClick={handleClick}>
+          <a style={{ fontFamily: 'Quicksand' }} href="#" onClick={handleClick}>
             Logout
           </a>
         </div>
       ) : (
-          <div>
+          <div style={{ fontFamily: 'Quicksand' }} className='items'>
             {/* The navbar will show these links before you log in */}
-            <Link to="/login">Login</Link>
-            <Link to="/signup">Sign Up</Link>
+            <Link style={{ fontFamily: 'Quicksand' }} to="/login">Login</Link>
+
           </div>
         )}
     </nav>
-    <hr />
+
   </div>
 )
 

@@ -1,21 +1,361 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', 'Varela Round', 'Quicksand', 'sans-serif';
+}
 body {
-  font-family: sans-serif;
-}
+	text-align: center;
 
-a {
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: grey;
+	font-family: 'Quicksand';
+
+}
+form {
+	display: flex;
+	flex-direction: column;
+
+	background-color: white;
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	margin-top: 150px;
+	border: 10px solid grey;
+	border-radius: 20px;
+}
+input[type=button] {
+	font-family: 'Quicksand';
+	font-size: 15px;
+	margin: 10px;
+	background-color: grey	;
+  border: none;
+  color: white;
+  padding: 16px 32px;
   text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+input:hover[type=button] {
+	background-color: #A9A9A9		;
+}
+#user {
+	text-align: center;
+	padding: 10px 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+#passw {
+	text-align: center;
+	padding: 10px 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
 }
 
-label {
-  display: block;
-}
+
+
+
+
 
 nav a {
   display: inline-block;
+
   margin: 1em;
 }
 
-form div {
-  margin: 1em;
-  display: inline-block;
+
+nav {
+  display: absolute;
+  flex-direction: row;
+  opacity: 0.7;
+  justify-content: space-around;
+  background-color: #01202cbd;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  position: fixed;
+  top: 0;
+	width: 100%;
+	text-decoration: none;
+	font-family: 'Quicksand';
 }
+
+nav a {
+  color: white;
+	text-decoration: none;
+	font-family: 'Quicksand';
+}
+.image {
+	position: absolute;
+	right: 73%;
+}
+.buttons {
+	position: relative;
+	left: 60%;
+}
+header {
+	color:#696969;
+	font-family: sans-serif;
+}
+img {
+	border-radius: 50%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#one a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#one a:hover {
+	background-color: #808080;
+}
+#two a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#two a:hover {
+	background-color: #808080;
+}
+#three a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#three a:hover {
+	background-color: #808080;
+}
+#four a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width:150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#four a:hover {
+	background-color: #808080;
+}
+#five a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width:150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#five a:hover {
+	background-color: #808080;
+}
+
+Nujailah Noor  5:51 PM
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="welcomecss.css">
+</head>
+<body>
+	<br>
+	<br>
+<header>
+	<h1>Welcome Ursula!</h1>
+</header>
+<div class="image">
+	<img src="ursula.jpg" alt="investor" width="350" height="350" >
+	<p>Investment Profitability</p>
+	<div class="container1">
+  		<div class="percentage num1">80%</div>
+  	</div>
+  	<p>Rate of Return</p>
+  	<div class="container2">
+  		<div class="percentage num2"> 76%</div>
+	</div>
+</div>
+	<div class = "buttons">
+		<div id="one">
+			<a href="stock.html"> My Stocks </a>
+			<br>
+			<br>
+		</div>
+		<div id="two">
+			<a href="apple.html"> Apple Stocks </a>
+			<br>
+			<br>
+		</div>
+		<div id="three">
+			<a href = "micrsoft.html"> Microsoft </a>
+			<br>
+			<br>
+		</div>
+		<div id="four">
+			<a href = "goldman.html"> Goldman Sachs</a>
+			<br>
+			<br>
+		</div>
+		<div id="five">
+			<a href="jpmorgan.html"> JP Morgan Chase</a>
+			<br>
+			<br>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+5:51
+body {
+	font-family: sans-serif;
+	color: #696969;
+}
+.image {
+	position: absolute;
+	right: 73%;
+}
+.buttons {
+	position: relative;
+	left: 60%;
+}
+.container1 {
+	width: 100%;
+  	background-color: #ddd;
+}
+.container2 {
+	width: 100%;
+  	background-color: #ddd;
+}
+.percentage {
+	text-align: right;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  	color: white;
+}
+.num1 {
+	width: 90%;
+	background-color: #4CAF50;
+}
+.num2 {
+	width: 76%;
+	background-color: #4CAF50;
+}
+header {
+	color:#696969;
+	font-family: sans-serif;
+}
+img {
+	border-radius: 50%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#one a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#one a:hover {
+	background-color: #808080;
+}
+#two a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#two a:hover {
+	background-color: #808080;
+}
+#three a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#three a:hover {
+	background-color: #808080;
+}
+#four a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width:150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#four a:hover {
+	background-color: #808080;
+}
+#five a:link  {
+	background-color:#696969;
+	color: white;
+	padding: 20px 80px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	width:150px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+#five a:hover {
+	background-color: #808080;
+}
+
+
