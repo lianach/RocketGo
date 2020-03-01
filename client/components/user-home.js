@@ -47,22 +47,22 @@ export const UserHome = props => {
             <br />
           </div>
           <div id="two">
-            <Link to={'/AAPL'}> Apple </Link>
+            <Link to={'/AAPL'} style={{ textDecoration: 'none', color: 'white' }}> Apple </Link>
             <br />
             <br />
           </div>
           <div id="three">
-            <Link to={'/MSFT'}> Microsoft </Link>
+            <Link to={'/MSFT'} style={{ textDecoration: 'none', color: 'white' }}> Microsoft </Link>
             <br />
             <br />
           </div>
-          <div id="four">
-            <Link to={'/GS'}> Goldman Sachs</Link>
+          <div id="four" >
+            <Link style={{ textDecoration: 'none', color: 'white' }} to={'/GS'}> Goldman Sachs</Link>
             <br />
             <br />
           </div>
           <div id="five">
-            <Link to={'/JPM'}>  {'JP Morgan Chase & Co.'}</Link>
+            <Link to={'/JPM'} style={{ textDecoration: 'none', color: 'white' }}>  {'JP Morgan Chase & Co.'}</Link>
             <br />
             <br />
           </div>
