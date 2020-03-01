@@ -4,7 +4,7 @@
 ### MacOS/Linux
 
 * `npm install`
-* `npm start-dev`
+* `npm run start-dev`
 
 
 ### Windows
